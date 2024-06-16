@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 目标JavaScript版本
+    "module": "NodeNext", // 模块系统
+    "outDir": "./dist", // 编译后的文件输出目录
+    "strict": true, // 启用所有严格类型检查选项
+    "esModuleInterop": true, // 允许在CommonJS模块中使用import语句
+    "skipLibCheck": true, // 跳过库文件的类型检查，加快编译速度
+    "forceConsistentCasingInFileNames": true, // 确保Windows和Unix文件名一致
+    "resolveJsonModule": true, // 允许导入.json和.jsonc文件
+    "sourceMap": true, // 生成sourceMap以方便调试
+    "declaration": false, // 不生成声明文件.d.ts
+    "removeComments": true, // 移除注释
+    "noImplicitAny": true, // 禁止隐式any类型
+    "strictNullChecks": true, // 禁止null和undefined赋值给其他类型
+    "noUnusedLocals": true, // 禁止未使用的局部变量
+    "noUnusedParameters": true, // 禁止未使用的参数
+    "noImplicitReturns": true, // 禁止函数没有返回值
+    "noFallthroughCasesInSwitch": true // 禁止switch语句中case穿透
+  },
+  "include": [
+    // 指定哪些文件将被编译
+    "src/**/*"
+  ],
+  "exclude": [
+    // 指定哪些文件将不被编译
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
