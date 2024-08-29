@@ -7,8 +7,13 @@
     "prepare": "husky"
   },
   "keywords": [],
-  "author": "",
+  "author": "duxiaohao",
   "license": "ISC",
+  "engines": {
+    "node": "20.12.2",
+    "pnpm": "9.5.0",
+    "npm": "10.5.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",

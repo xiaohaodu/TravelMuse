@@ -16,6 +16,9 @@
     "noUnusedLocals": true, // 禁止未使用的局部变量
     "noUnusedParameters": true, // 禁止未使用的参数
     "noImplicitReturns": true, // 禁止函数没有返回值
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "emitDeclarationOnly": false,
     "noFallthroughCasesInSwitch": true // 禁止switch语句中case穿透
   },
   "include": [
